@@ -12,5 +12,6 @@ ggplot(aes(country, mean_lifeExp)) +
 	theme(axis.text = element_text(
 		angle = 90,
 		hjust = 1
-	)) 
+	))
+	ggsave(paste0(cont,"_plot.png"))
 }
