@@ -5,7 +5,7 @@ I decided to make my own pipeline to accomplish an analysis on the `gapminder` d
 
 My pipeline makes use of two functions, [continent_select](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/continent_select.R) and [gap_plot](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/gap_plot.R). 
 
-`continent_select` filters the `gapminder` data for a continent of interest, calculates the mean life expectancy for each country in that continent and saves this data in a .csv file. 
+`continent_select` filters the gapminder data for a continent of interest, calculates the mean life expectancy for each country in that continent and saves this data in a .csv file. 
 
 `gap_plot` plots the mean life expectancy for each country, ordered by mean life expectancy and saves the plot as a .png file.
 
