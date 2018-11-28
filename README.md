@@ -12,3 +12,10 @@ My pipeline makes use of two functions, [continent_select](https://github.com/ST
 Both functions are created in their own .R file that can be accessed in the Makefile.
 
 With [my pipeline](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/Makefile) I make use of these two functions to calculate and plot the mean life expectancy in each country in Asia and in Europe. The information is then summarized in a [report](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/report.md).
+
+All files can be found in the [gap_selection folder](https://github.com/STAT545-UBC-students/hw09-fjbasedow/tree/master/gap_selection) and here is an overview of the important files:
+
+- [my Makefile](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/Makefile)
+- [the continent_select.R file](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/continent_select.R)
+- [the gap_plot.R file](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/gap_plot.R)
+- [the report](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/report.md)
