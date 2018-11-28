@@ -9,7 +9,7 @@ My pipeline makes use of two functions, [continent_select](https://github.com/ST
 
 `gap_plot` plots the mean life expectancy for each country, ordered by mean life expectancy and saves the plot as a .png file.
 
-With [my pipeline](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/Makefile) I make use of these two functions to calculate and plot the mean life expectancy in each country in Asia, Europe, the Americas and Africa. The pipeline also includes the creation of directories for each continent and the new files (.csv and .png) for each continent are saved into the appropriate folder (this is achieved by the functions)
+With [my pipeline](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/Makefile) I make use of these two functions to calculate and plot the mean life expectancy in each country in Asia and Europe. I decided to only pick two continents for simplicity. The pipeline also includes the creation of directories for each continent and the new files (.csv and .png) for each continent are saved into the appropriate folder (this is achieved by the functions)
 
 The information is then summarized in a [report](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/report.md).
 
@@ -19,3 +19,4 @@ All files can be found in the [gap_selection folder](https://github.com/STAT545-
 - [the continent_select.R file](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/continent_select.R)
 - [the gap_plot.R file](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/gap_plot.R)
 - [the report](https://github.com/STAT545-UBC-students/hw09-fjbasedow/blob/master/gap_selection/report.md)
+
