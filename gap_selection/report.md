@@ -8,7 +8,7 @@ The goal of this analysis is to determine the mean life expectancy in countries 
 ``` r
 library(tidyverse)
 library(knitr)
-Asia_data <- read_csv("Asia_selection.csv")
+Asia_data <- read_csv("Asia/Asia_selection.csv")
 
 kable(head(Asia_data), col.names = c("Country", "Mean Life Expectancy"))
 ```
@@ -50,14 +50,14 @@ The lowest life expectancy in a country in Asia is 37 years, the highest is 75 y
 
 Here is a plot of the mean life expectancy in each country, sorted by mean life expectancy:
 
-![](Asia_plot.png)
+![](Asia/Asia_plot.png)
 
 Looks like Afghanistan has the lowest mean life expectancy and Japan has the highest.
 
 Let's have a look at the same data from Europe:
 
 ``` r
-Europe_data <- read_csv("Europe_selection.csv")
+Europe_data <- read_csv("Europe/Europe_selection.csv")
 
 kable(head(Europe_data), col.names = c("Country", "Mean Life Expectancy"))
 ```
@@ -97,4 +97,4 @@ round(max(Europe_data$mean_lifeExp), 2)
 
 The lowest life expectancy in Europe is 60 years, the highest it 77 years. Here is the plot of mean life expectancies for each country in Europe:
 
-![](Europe_plot.png)
+![](Europe/Europe_plot.png)

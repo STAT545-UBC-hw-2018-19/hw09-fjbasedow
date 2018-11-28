@@ -13,5 +13,5 @@ ggplot(aes(country, mean_lifeExp)) +
 		angle = 90,
 		hjust = 1
 	))
-	ggsave(paste0(cont,"_plot.png"))
+	ggsave(paste0(cont,"_plot.png"), path = paste0("./", cont))
 }

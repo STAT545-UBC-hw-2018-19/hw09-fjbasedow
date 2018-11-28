@@ -6,5 +6,5 @@ continent_select <- function(cont) {
 		filter(continent == cont) %>% 
 		group_by(country) %>%
 		summarize(mean_lifeExp = mean(lifeExp))  %>% 
-		write_csv(paste0(cont,"_selection.csv"))
+		write_csv(paste0(cont, "/", cont,"_selection.csv"))
 }
